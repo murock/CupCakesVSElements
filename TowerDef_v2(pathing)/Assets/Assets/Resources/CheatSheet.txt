@@ -1,0 +1,13 @@
+
+- Edit Tower damage and other effects Assets->Prefabs->Towers->anyTower->Range then look at inspector window under there individual script
+		+ upgrades also done from here 1 indicates upgrade 1 etc
+
+- Initial tower cost in Hierarchy window->Canvas->TowerPanel->Tw"X"Btn then in inspector under tower button script the price can be changed
+
+- Edit place where mobs run to and from. Click on the in Heirarchy LevelManager then under the script Start/End Point X & Y
+
+- Starting Currency + Lives edited from Heirarchy Gamemanager
+
+- Gold on mob kill can be found in Prefabs->Monsters then under Monster Script "Gold On Death"  Hp and speed are also found here
+		+Extra health refers to the amount of extra health they gain every x levels. x being the int set under the GameManager "Num Waves Hp Increase"
+
